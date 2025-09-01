@@ -5,6 +5,8 @@
 #include "imageinfo.hpp"
 #include "mediaAritmetica.hpp"
 #include "mediaPonderada.hpp"
+#include "limiarizacao.hpp"
+#include "InverterImagem.hpp"
 
 int main(int argc, char** argv)
 {   
@@ -31,6 +33,8 @@ int main(int argc, char** argv)
     cv::Mat gray_image = cv::Mat(to_gray.get_gray());
     cv::Mat ImagemMediaAritmetica = mediaAritmetica::calcularMedia(image);
     cv::Mat ImagemMediaPonderada = mediaPonderada::calcularMedia(image, 0, 1, 0);
+    cv::Mat ImagemLimiarizada = limiarizacao::aplicarLimiar(gray_image, 128);
+    cv::Mat ImagemInvertida = InverterImagem::inverter(image);
     
 
     
@@ -38,7 +42,8 @@ int main(int argc, char** argv)
     cv::imshow("Ave 02 - Gray Image", gray_image);
     cv::imshow("Ave 02 - Media Aritmetica", ImagemMediaAritmetica);
     cv::imshow("Ave 02 - Media Ponderada g", ImagemMediaPonderada);
-    
+    cv::imshow("Ave 02 - Limiarizacao", ImagemLimiarizada);
+    cv::imshow("Ave 02 - Invertida", ImagemInvertida);
 
     cv::waitKey(0);
     
