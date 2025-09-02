@@ -2,6 +2,7 @@
 #include <opencv2/opencv.hpp>
 #include <vector>
 
+
 std::vector<int> calcularHistogramaGrayscale(const cv::Mat& imagem) {
     std::vector<int> histograma(256, 0);
     for (int y = 0; y < imagem.rows; y++) {
@@ -28,37 +29,53 @@ std::vector<std::vector<int>> calcularHistogramaColorido(const cv::Mat& imagem) 
 
 cv::Mat visualizarHistogramaGrayscale(const std::vector<int>& histograma) {
     int hist_w = 512, hist_h = 400;
-    int bin_w = cvRound((double) hist_w / 256);
+    int bin_w = hist_w / 256;
     cv::Mat histImage(hist_h, hist_w, CV_8UC3, cv::Scalar(255,255,255));
-    int max = *std::max_element(histograma.begin(), histograma.end());
+    int max = 1;
+    for (int i = 0; i < 256; i++) {
+        if (histograma[i] > max) max = histograma[i];
+    }
     std::vector<int> norm_hist(256);
     for (int i = 0; i < 256; i++) {
-        norm_hist[i] = cvRound(((double)histograma[i] / max) * hist_h);
+        norm_hist[i] = (int)(((double)histograma[i] / max) * hist_h);
     }
+    // Desenhar barras manualmente
     for (int i = 0; i < 256; i++) {
-        cv::rectangle(histImage, cv::Point(i*bin_w, hist_h), cv::Point((i+1)*bin_w, hist_h - norm_hist[i]), cv::Scalar(0,0,0), -1);
+        for (int y = hist_h - 1; y >= hist_h - norm_hist[i]; y--) {
+            for (int x = i * bin_w; x < (i + 1) * bin_w; x++) {
+                if (x < hist_w && y >= 0)
+                    histImage.at<cv::Vec3b>(y, x) = cv::Vec3b(0,0,0);
+            }
+        }
     }
     return histImage;
 }
 
 cv::Mat visualizarHistogramaColorido(const std::vector<std::vector<int>>& histograma) {
     int hist_w = 512, hist_h = 400;
-    int bin_w = cvRound((double) hist_w / 256);
+    int bin_w = hist_w / 256;
     cv::Mat histImage(hist_h, hist_w, CV_8UC3, cv::Scalar(255,255,255));
-    std::vector<int> max(3);
+    int max[3] = {1,1,1};
     for (int c = 0; c < 3; c++) {
-        max[c] = *std::max_element(histograma[c].begin(), histograma[c].end());
+        for (int i = 0; i < 256; i++) {
+            if (histograma[c][i] > max[c]) max[c] = histograma[c][i];
+        }
     }
     std::vector<std::vector<int>> norm_hist(3, std::vector<int>(256));
     for (int c = 0; c < 3; c++) {
         for (int i = 0; i < 256; i++) {
-            norm_hist[c][i] = cvRound(((double)histograma[c][i] / max[c]) * hist_h);
+            norm_hist[c][i] = (int)(((double)histograma[c][i] / max[c]) * hist_h);
         }
     }
-    cv::Scalar cores[3] = {cv::Scalar(255,0,0), cv::Scalar(0,255,0), cv::Scalar(0,0,255)};
     for (int c = 0; c < 3; c++) {
+        cv::Vec3b cor = c == 0 ? cv::Vec3b(255,0,0) : (c == 1 ? cv::Vec3b(0,255,0) : cv::Vec3b(0,0,255));
         for (int i = 0; i < 256; i++) {
-            cv::rectangle(histImage, cv::Point(i*bin_w, hist_h), cv::Point((i+1)*bin_w, hist_h - norm_hist[c][i]), cores[c], -1);
+            for (int y = hist_h - 1; y >= hist_h - norm_hist[c][i]; y--) {
+                for (int x = i * bin_w; x < (i + 1) * bin_w; x++) {
+                    if (x < hist_w && y >= 0)
+                        histImage.at<cv::Vec3b>(y, x) = cor;
+                }
+            }
         }
     }
     return histImage;
