@@ -1,0 +1,7 @@
+var searchData=
+[
+  ['somaescalar_0',['somaEscalar',['../operacoes_aritmeticas_8hpp.html#a44c3494374a9766092ba9c9ff84bd094',1,'somaEscalar(const cv::Mat &amp;img, double valor):&#160;operacoesAritmeticas.cpp'],['../operacoes_aritmeticas_8cpp.html#a44c3494374a9766092ba9c9ff84bd094',1,'somaEscalar(const cv::Mat &amp;img, double valor):&#160;operacoesAritmeticas.cpp']]],
+  ['somaimagens_1',['somaImagens',['../operacoes_aritmeticas_8hpp.html#af0fca9f5a49ea9c2ae7fa5eb9491f6e5',1,'somaImagens(const cv::Mat &amp;img1, const cv::Mat &amp;img2):&#160;operacoesAritmeticas.cpp'],['../operacoes_aritmeticas_8cpp.html#af0fca9f5a49ea9c2ae7fa5eb9491f6e5',1,'somaImagens(const cv::Mat &amp;img1, const cv::Mat &amp;img2):&#160;operacoesAritmeticas.cpp']]],
+  ['subtraiescalar_2',['subtraiEscalar',['../operacoes_aritmeticas_8hpp.html#a1b381a3bc6ec0e667c1b9fe4ce7b4d4f',1,'subtraiEscalar(const cv::Mat &amp;img, double valor):&#160;operacoesAritmeticas.cpp'],['../operacoes_aritmeticas_8cpp.html#a1b381a3bc6ec0e667c1b9fe4ce7b4d4f',1,'subtraiEscalar(const cv::Mat &amp;img, double valor):&#160;operacoesAritmeticas.cpp']]],
+  ['subtraiimagens_3',['subtraiImagens',['../operacoes_aritmeticas_8hpp.html#a254037dc3c2cb8403a3c02a1d193fbf9',1,'subtraiImagens(const cv::Mat &amp;img1, const cv::Mat &amp;img2):&#160;operacoesAritmeticas.cpp'],['../operacoes_aritmeticas_8cpp.html#a254037dc3c2cb8403a3c02a1d193fbf9',1,'subtraiImagens(const cv::Mat &amp;img1, const cv::Mat &amp;img2):&#160;operacoesAritmeticas.cpp']]]
+];

@@ -1,6 +1,6 @@
 CMakeFiles/pdi_code.dir/src/grayscale.cpp.obj: \
- C:\Users\Lucas\Trabalho-m1-PDI\src\grayscale.cpp \
- C:/Users/Lucas/Trabalho-m1-PDI/include/grayscale.hpp \
+ C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\src\grayscale.cpp \
+ C:/Vinicius/UNIVALI/ProcImagens/trabalho/Trabalho-m1-PDI/include/grayscale.hpp \
  C:/msys64/ucrt64/include/opencv4/opencv2/opencv.hpp \
  C:/msys64/ucrt64/include/opencv4/opencv2/opencv_modules.hpp \
  C:/msys64/ucrt64/include/opencv4/opencv2/core.hpp \

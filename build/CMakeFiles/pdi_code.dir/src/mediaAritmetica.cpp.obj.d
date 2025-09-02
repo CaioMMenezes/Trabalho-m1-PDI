@@ -1,6 +1,6 @@
 CMakeFiles/pdi_code.dir/src/mediaAritmetica.cpp.obj: \
- C:\Users\Lucas\Trabalho-m1-PDI\src\mediaAritmetica.cpp \
- C:/Users/Lucas/Trabalho-m1-PDI/include/mediaAritmetica.hpp \
+ C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\src\mediaAritmetica.cpp \
+ C:/Vinicius/UNIVALI/ProcImagens/trabalho/Trabalho-m1-PDI/include/mediaAritmetica.hpp \
  C:/msys64/ucrt64/include/opencv4/opencv2/opencv.hpp \
  C:/msys64/ucrt64/include/opencv4/opencv2/opencv_modules.hpp \
  C:/msys64/ucrt64/include/opencv4/opencv2/core.hpp \

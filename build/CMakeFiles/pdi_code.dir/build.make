@@ -52,10 +52,10 @@ RM = C:\msys64\ucrt64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Lucas\Trabalho-m1-PDI
+CMAKE_SOURCE_DIR = C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Lucas\Trabalho-m1-PDI\build
+CMAKE_BINARY_DIR = C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pdi_code.dir/depend.make
@@ -73,153 +73,153 @@ CMakeFiles/pdi_code.dir/codegen:
 
 CMakeFiles/pdi_code.dir/app/run.cpp.obj: CMakeFiles/pdi_code.dir/flags.make
 CMakeFiles/pdi_code.dir/app/run.cpp.obj: CMakeFiles/pdi_code.dir/includes_CXX.rsp
-CMakeFiles/pdi_code.dir/app/run.cpp.obj: C:/Users/Lucas/Trabalho-m1-PDI/app/run.cpp
+CMakeFiles/pdi_code.dir/app/run.cpp.obj: C:/Vinicius/UNIVALI/ProcImagens/trabalho/Trabalho-m1-PDI/app/run.cpp
 CMakeFiles/pdi_code.dir/app/run.cpp.obj: CMakeFiles/pdi_code.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lucas\Trabalho-m1-PDI\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pdi_code.dir/app/run.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pdi_code.dir/app/run.cpp.obj -MF CMakeFiles\pdi_code.dir\app\run.cpp.obj.d -o CMakeFiles\pdi_code.dir\app\run.cpp.obj -c C:\Users\Lucas\Trabalho-m1-PDI\app\run.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pdi_code.dir/app/run.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pdi_code.dir/app/run.cpp.obj -MF CMakeFiles\pdi_code.dir\app\run.cpp.obj.d -o CMakeFiles\pdi_code.dir\app\run.cpp.obj -c C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\app\run.cpp
 
 CMakeFiles/pdi_code.dir/app/run.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pdi_code.dir/app/run.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lucas\Trabalho-m1-PDI\app\run.cpp > CMakeFiles\pdi_code.dir\app\run.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\app\run.cpp > CMakeFiles\pdi_code.dir\app\run.cpp.i
 
 CMakeFiles/pdi_code.dir/app/run.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pdi_code.dir/app/run.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lucas\Trabalho-m1-PDI\app\run.cpp -o CMakeFiles\pdi_code.dir\app\run.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\app\run.cpp -o CMakeFiles\pdi_code.dir\app\run.cpp.s
 
 CMakeFiles/pdi_code.dir/src/InverterImagem.cpp.obj: CMakeFiles/pdi_code.dir/flags.make
 CMakeFiles/pdi_code.dir/src/InverterImagem.cpp.obj: CMakeFiles/pdi_code.dir/includes_CXX.rsp
-CMakeFiles/pdi_code.dir/src/InverterImagem.cpp.obj: C:/Users/Lucas/Trabalho-m1-PDI/src/InverterImagem.cpp
+CMakeFiles/pdi_code.dir/src/InverterImagem.cpp.obj: C:/Vinicius/UNIVALI/ProcImagens/trabalho/Trabalho-m1-PDI/src/InverterImagem.cpp
 CMakeFiles/pdi_code.dir/src/InverterImagem.cpp.obj: CMakeFiles/pdi_code.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lucas\Trabalho-m1-PDI\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pdi_code.dir/src/InverterImagem.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pdi_code.dir/src/InverterImagem.cpp.obj -MF CMakeFiles\pdi_code.dir\src\InverterImagem.cpp.obj.d -o CMakeFiles\pdi_code.dir\src\InverterImagem.cpp.obj -c C:\Users\Lucas\Trabalho-m1-PDI\src\InverterImagem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pdi_code.dir/src/InverterImagem.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pdi_code.dir/src/InverterImagem.cpp.obj -MF CMakeFiles\pdi_code.dir\src\InverterImagem.cpp.obj.d -o CMakeFiles\pdi_code.dir\src\InverterImagem.cpp.obj -c C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\src\InverterImagem.cpp
 
 CMakeFiles/pdi_code.dir/src/InverterImagem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pdi_code.dir/src/InverterImagem.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lucas\Trabalho-m1-PDI\src\InverterImagem.cpp > CMakeFiles\pdi_code.dir\src\InverterImagem.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\src\InverterImagem.cpp > CMakeFiles\pdi_code.dir\src\InverterImagem.cpp.i
 
 CMakeFiles/pdi_code.dir/src/InverterImagem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pdi_code.dir/src/InverterImagem.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lucas\Trabalho-m1-PDI\src\InverterImagem.cpp -o CMakeFiles\pdi_code.dir\src\InverterImagem.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\src\InverterImagem.cpp -o CMakeFiles\pdi_code.dir\src\InverterImagem.cpp.s
 
 CMakeFiles/pdi_code.dir/src/grayscale.cpp.obj: CMakeFiles/pdi_code.dir/flags.make
 CMakeFiles/pdi_code.dir/src/grayscale.cpp.obj: CMakeFiles/pdi_code.dir/includes_CXX.rsp
-CMakeFiles/pdi_code.dir/src/grayscale.cpp.obj: C:/Users/Lucas/Trabalho-m1-PDI/src/grayscale.cpp
+CMakeFiles/pdi_code.dir/src/grayscale.cpp.obj: C:/Vinicius/UNIVALI/ProcImagens/trabalho/Trabalho-m1-PDI/src/grayscale.cpp
 CMakeFiles/pdi_code.dir/src/grayscale.cpp.obj: CMakeFiles/pdi_code.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lucas\Trabalho-m1-PDI\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pdi_code.dir/src/grayscale.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pdi_code.dir/src/grayscale.cpp.obj -MF CMakeFiles\pdi_code.dir\src\grayscale.cpp.obj.d -o CMakeFiles\pdi_code.dir\src\grayscale.cpp.obj -c C:\Users\Lucas\Trabalho-m1-PDI\src\grayscale.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pdi_code.dir/src/grayscale.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pdi_code.dir/src/grayscale.cpp.obj -MF CMakeFiles\pdi_code.dir\src\grayscale.cpp.obj.d -o CMakeFiles\pdi_code.dir\src\grayscale.cpp.obj -c C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\src\grayscale.cpp
 
 CMakeFiles/pdi_code.dir/src/grayscale.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pdi_code.dir/src/grayscale.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lucas\Trabalho-m1-PDI\src\grayscale.cpp > CMakeFiles\pdi_code.dir\src\grayscale.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\src\grayscale.cpp > CMakeFiles\pdi_code.dir\src\grayscale.cpp.i
 
 CMakeFiles/pdi_code.dir/src/grayscale.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pdi_code.dir/src/grayscale.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lucas\Trabalho-m1-PDI\src\grayscale.cpp -o CMakeFiles\pdi_code.dir\src\grayscale.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\src\grayscale.cpp -o CMakeFiles\pdi_code.dir\src\grayscale.cpp.s
 
 CMakeFiles/pdi_code.dir/src/histograma.cpp.obj: CMakeFiles/pdi_code.dir/flags.make
 CMakeFiles/pdi_code.dir/src/histograma.cpp.obj: CMakeFiles/pdi_code.dir/includes_CXX.rsp
-CMakeFiles/pdi_code.dir/src/histograma.cpp.obj: C:/Users/Lucas/Trabalho-m1-PDI/src/histograma.cpp
+CMakeFiles/pdi_code.dir/src/histograma.cpp.obj: C:/Vinicius/UNIVALI/ProcImagens/trabalho/Trabalho-m1-PDI/src/histograma.cpp
 CMakeFiles/pdi_code.dir/src/histograma.cpp.obj: CMakeFiles/pdi_code.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lucas\Trabalho-m1-PDI\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pdi_code.dir/src/histograma.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pdi_code.dir/src/histograma.cpp.obj -MF CMakeFiles\pdi_code.dir\src\histograma.cpp.obj.d -o CMakeFiles\pdi_code.dir\src\histograma.cpp.obj -c C:\Users\Lucas\Trabalho-m1-PDI\src\histograma.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pdi_code.dir/src/histograma.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pdi_code.dir/src/histograma.cpp.obj -MF CMakeFiles\pdi_code.dir\src\histograma.cpp.obj.d -o CMakeFiles\pdi_code.dir\src\histograma.cpp.obj -c C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\src\histograma.cpp
 
 CMakeFiles/pdi_code.dir/src/histograma.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pdi_code.dir/src/histograma.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lucas\Trabalho-m1-PDI\src\histograma.cpp > CMakeFiles\pdi_code.dir\src\histograma.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\src\histograma.cpp > CMakeFiles\pdi_code.dir\src\histograma.cpp.i
 
 CMakeFiles/pdi_code.dir/src/histograma.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pdi_code.dir/src/histograma.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lucas\Trabalho-m1-PDI\src\histograma.cpp -o CMakeFiles\pdi_code.dir\src\histograma.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\src\histograma.cpp -o CMakeFiles\pdi_code.dir\src\histograma.cpp.s
 
 CMakeFiles/pdi_code.dir/src/imageinfo.cpp.obj: CMakeFiles/pdi_code.dir/flags.make
 CMakeFiles/pdi_code.dir/src/imageinfo.cpp.obj: CMakeFiles/pdi_code.dir/includes_CXX.rsp
-CMakeFiles/pdi_code.dir/src/imageinfo.cpp.obj: C:/Users/Lucas/Trabalho-m1-PDI/src/imageinfo.cpp
+CMakeFiles/pdi_code.dir/src/imageinfo.cpp.obj: C:/Vinicius/UNIVALI/ProcImagens/trabalho/Trabalho-m1-PDI/src/imageinfo.cpp
 CMakeFiles/pdi_code.dir/src/imageinfo.cpp.obj: CMakeFiles/pdi_code.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lucas\Trabalho-m1-PDI\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pdi_code.dir/src/imageinfo.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pdi_code.dir/src/imageinfo.cpp.obj -MF CMakeFiles\pdi_code.dir\src\imageinfo.cpp.obj.d -o CMakeFiles\pdi_code.dir\src\imageinfo.cpp.obj -c C:\Users\Lucas\Trabalho-m1-PDI\src\imageinfo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pdi_code.dir/src/imageinfo.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pdi_code.dir/src/imageinfo.cpp.obj -MF CMakeFiles\pdi_code.dir\src\imageinfo.cpp.obj.d -o CMakeFiles\pdi_code.dir\src\imageinfo.cpp.obj -c C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\src\imageinfo.cpp
 
 CMakeFiles/pdi_code.dir/src/imageinfo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pdi_code.dir/src/imageinfo.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lucas\Trabalho-m1-PDI\src\imageinfo.cpp > CMakeFiles\pdi_code.dir\src\imageinfo.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\src\imageinfo.cpp > CMakeFiles\pdi_code.dir\src\imageinfo.cpp.i
 
 CMakeFiles/pdi_code.dir/src/imageinfo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pdi_code.dir/src/imageinfo.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lucas\Trabalho-m1-PDI\src\imageinfo.cpp -o CMakeFiles\pdi_code.dir\src\imageinfo.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\src\imageinfo.cpp -o CMakeFiles\pdi_code.dir\src\imageinfo.cpp.s
 
 CMakeFiles/pdi_code.dir/src/isolarCanais.cpp.obj: CMakeFiles/pdi_code.dir/flags.make
 CMakeFiles/pdi_code.dir/src/isolarCanais.cpp.obj: CMakeFiles/pdi_code.dir/includes_CXX.rsp
-CMakeFiles/pdi_code.dir/src/isolarCanais.cpp.obj: C:/Users/Lucas/Trabalho-m1-PDI/src/isolarCanais.cpp
+CMakeFiles/pdi_code.dir/src/isolarCanais.cpp.obj: C:/Vinicius/UNIVALI/ProcImagens/trabalho/Trabalho-m1-PDI/src/isolarCanais.cpp
 CMakeFiles/pdi_code.dir/src/isolarCanais.cpp.obj: CMakeFiles/pdi_code.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lucas\Trabalho-m1-PDI\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/pdi_code.dir/src/isolarCanais.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pdi_code.dir/src/isolarCanais.cpp.obj -MF CMakeFiles\pdi_code.dir\src\isolarCanais.cpp.obj.d -o CMakeFiles\pdi_code.dir\src\isolarCanais.cpp.obj -c C:\Users\Lucas\Trabalho-m1-PDI\src\isolarCanais.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/pdi_code.dir/src/isolarCanais.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pdi_code.dir/src/isolarCanais.cpp.obj -MF CMakeFiles\pdi_code.dir\src\isolarCanais.cpp.obj.d -o CMakeFiles\pdi_code.dir\src\isolarCanais.cpp.obj -c C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\src\isolarCanais.cpp
 
 CMakeFiles/pdi_code.dir/src/isolarCanais.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pdi_code.dir/src/isolarCanais.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lucas\Trabalho-m1-PDI\src\isolarCanais.cpp > CMakeFiles\pdi_code.dir\src\isolarCanais.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\src\isolarCanais.cpp > CMakeFiles\pdi_code.dir\src\isolarCanais.cpp.i
 
 CMakeFiles/pdi_code.dir/src/isolarCanais.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pdi_code.dir/src/isolarCanais.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lucas\Trabalho-m1-PDI\src\isolarCanais.cpp -o CMakeFiles\pdi_code.dir\src\isolarCanais.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\src\isolarCanais.cpp -o CMakeFiles\pdi_code.dir\src\isolarCanais.cpp.s
 
 CMakeFiles/pdi_code.dir/src/limiarizacao.cpp.obj: CMakeFiles/pdi_code.dir/flags.make
 CMakeFiles/pdi_code.dir/src/limiarizacao.cpp.obj: CMakeFiles/pdi_code.dir/includes_CXX.rsp
-CMakeFiles/pdi_code.dir/src/limiarizacao.cpp.obj: C:/Users/Lucas/Trabalho-m1-PDI/src/limiarizacao.cpp
+CMakeFiles/pdi_code.dir/src/limiarizacao.cpp.obj: C:/Vinicius/UNIVALI/ProcImagens/trabalho/Trabalho-m1-PDI/src/limiarizacao.cpp
 CMakeFiles/pdi_code.dir/src/limiarizacao.cpp.obj: CMakeFiles/pdi_code.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lucas\Trabalho-m1-PDI\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/pdi_code.dir/src/limiarizacao.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pdi_code.dir/src/limiarizacao.cpp.obj -MF CMakeFiles\pdi_code.dir\src\limiarizacao.cpp.obj.d -o CMakeFiles\pdi_code.dir\src\limiarizacao.cpp.obj -c C:\Users\Lucas\Trabalho-m1-PDI\src\limiarizacao.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/pdi_code.dir/src/limiarizacao.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pdi_code.dir/src/limiarizacao.cpp.obj -MF CMakeFiles\pdi_code.dir\src\limiarizacao.cpp.obj.d -o CMakeFiles\pdi_code.dir\src\limiarizacao.cpp.obj -c C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\src\limiarizacao.cpp
 
 CMakeFiles/pdi_code.dir/src/limiarizacao.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pdi_code.dir/src/limiarizacao.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lucas\Trabalho-m1-PDI\src\limiarizacao.cpp > CMakeFiles\pdi_code.dir\src\limiarizacao.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\src\limiarizacao.cpp > CMakeFiles\pdi_code.dir\src\limiarizacao.cpp.i
 
 CMakeFiles/pdi_code.dir/src/limiarizacao.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pdi_code.dir/src/limiarizacao.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lucas\Trabalho-m1-PDI\src\limiarizacao.cpp -o CMakeFiles\pdi_code.dir\src\limiarizacao.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\src\limiarizacao.cpp -o CMakeFiles\pdi_code.dir\src\limiarizacao.cpp.s
 
 CMakeFiles/pdi_code.dir/src/mediaAritmetica.cpp.obj: CMakeFiles/pdi_code.dir/flags.make
 CMakeFiles/pdi_code.dir/src/mediaAritmetica.cpp.obj: CMakeFiles/pdi_code.dir/includes_CXX.rsp
-CMakeFiles/pdi_code.dir/src/mediaAritmetica.cpp.obj: C:/Users/Lucas/Trabalho-m1-PDI/src/mediaAritmetica.cpp
+CMakeFiles/pdi_code.dir/src/mediaAritmetica.cpp.obj: C:/Vinicius/UNIVALI/ProcImagens/trabalho/Trabalho-m1-PDI/src/mediaAritmetica.cpp
 CMakeFiles/pdi_code.dir/src/mediaAritmetica.cpp.obj: CMakeFiles/pdi_code.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lucas\Trabalho-m1-PDI\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/pdi_code.dir/src/mediaAritmetica.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pdi_code.dir/src/mediaAritmetica.cpp.obj -MF CMakeFiles\pdi_code.dir\src\mediaAritmetica.cpp.obj.d -o CMakeFiles\pdi_code.dir\src\mediaAritmetica.cpp.obj -c C:\Users\Lucas\Trabalho-m1-PDI\src\mediaAritmetica.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/pdi_code.dir/src/mediaAritmetica.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pdi_code.dir/src/mediaAritmetica.cpp.obj -MF CMakeFiles\pdi_code.dir\src\mediaAritmetica.cpp.obj.d -o CMakeFiles\pdi_code.dir\src\mediaAritmetica.cpp.obj -c C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\src\mediaAritmetica.cpp
 
 CMakeFiles/pdi_code.dir/src/mediaAritmetica.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pdi_code.dir/src/mediaAritmetica.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lucas\Trabalho-m1-PDI\src\mediaAritmetica.cpp > CMakeFiles\pdi_code.dir\src\mediaAritmetica.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\src\mediaAritmetica.cpp > CMakeFiles\pdi_code.dir\src\mediaAritmetica.cpp.i
 
 CMakeFiles/pdi_code.dir/src/mediaAritmetica.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pdi_code.dir/src/mediaAritmetica.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lucas\Trabalho-m1-PDI\src\mediaAritmetica.cpp -o CMakeFiles\pdi_code.dir\src\mediaAritmetica.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\src\mediaAritmetica.cpp -o CMakeFiles\pdi_code.dir\src\mediaAritmetica.cpp.s
 
 CMakeFiles/pdi_code.dir/src/mediaPonderada.cpp.obj: CMakeFiles/pdi_code.dir/flags.make
 CMakeFiles/pdi_code.dir/src/mediaPonderada.cpp.obj: CMakeFiles/pdi_code.dir/includes_CXX.rsp
-CMakeFiles/pdi_code.dir/src/mediaPonderada.cpp.obj: C:/Users/Lucas/Trabalho-m1-PDI/src/mediaPonderada.cpp
+CMakeFiles/pdi_code.dir/src/mediaPonderada.cpp.obj: C:/Vinicius/UNIVALI/ProcImagens/trabalho/Trabalho-m1-PDI/src/mediaPonderada.cpp
 CMakeFiles/pdi_code.dir/src/mediaPonderada.cpp.obj: CMakeFiles/pdi_code.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lucas\Trabalho-m1-PDI\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/pdi_code.dir/src/mediaPonderada.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pdi_code.dir/src/mediaPonderada.cpp.obj -MF CMakeFiles\pdi_code.dir\src\mediaPonderada.cpp.obj.d -o CMakeFiles\pdi_code.dir\src\mediaPonderada.cpp.obj -c C:\Users\Lucas\Trabalho-m1-PDI\src\mediaPonderada.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/pdi_code.dir/src/mediaPonderada.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pdi_code.dir/src/mediaPonderada.cpp.obj -MF CMakeFiles\pdi_code.dir\src\mediaPonderada.cpp.obj.d -o CMakeFiles\pdi_code.dir\src\mediaPonderada.cpp.obj -c C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\src\mediaPonderada.cpp
 
 CMakeFiles/pdi_code.dir/src/mediaPonderada.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pdi_code.dir/src/mediaPonderada.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lucas\Trabalho-m1-PDI\src\mediaPonderada.cpp > CMakeFiles\pdi_code.dir\src\mediaPonderada.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\src\mediaPonderada.cpp > CMakeFiles\pdi_code.dir\src\mediaPonderada.cpp.i
 
 CMakeFiles/pdi_code.dir/src/mediaPonderada.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pdi_code.dir/src/mediaPonderada.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lucas\Trabalho-m1-PDI\src\mediaPonderada.cpp -o CMakeFiles\pdi_code.dir\src\mediaPonderada.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\src\mediaPonderada.cpp -o CMakeFiles\pdi_code.dir\src\mediaPonderada.cpp.s
 
 CMakeFiles/pdi_code.dir/src/operacoesAritmeticas.cpp.obj: CMakeFiles/pdi_code.dir/flags.make
 CMakeFiles/pdi_code.dir/src/operacoesAritmeticas.cpp.obj: CMakeFiles/pdi_code.dir/includes_CXX.rsp
-CMakeFiles/pdi_code.dir/src/operacoesAritmeticas.cpp.obj: C:/Users/Lucas/Trabalho-m1-PDI/src/operacoesAritmeticas.cpp
+CMakeFiles/pdi_code.dir/src/operacoesAritmeticas.cpp.obj: C:/Vinicius/UNIVALI/ProcImagens/trabalho/Trabalho-m1-PDI/src/operacoesAritmeticas.cpp
 CMakeFiles/pdi_code.dir/src/operacoesAritmeticas.cpp.obj: CMakeFiles/pdi_code.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lucas\Trabalho-m1-PDI\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/pdi_code.dir/src/operacoesAritmeticas.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pdi_code.dir/src/operacoesAritmeticas.cpp.obj -MF CMakeFiles\pdi_code.dir\src\operacoesAritmeticas.cpp.obj.d -o CMakeFiles\pdi_code.dir\src\operacoesAritmeticas.cpp.obj -c C:\Users\Lucas\Trabalho-m1-PDI\src\operacoesAritmeticas.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/pdi_code.dir/src/operacoesAritmeticas.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pdi_code.dir/src/operacoesAritmeticas.cpp.obj -MF CMakeFiles\pdi_code.dir\src\operacoesAritmeticas.cpp.obj.d -o CMakeFiles\pdi_code.dir\src\operacoesAritmeticas.cpp.obj -c C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\src\operacoesAritmeticas.cpp
 
 CMakeFiles/pdi_code.dir/src/operacoesAritmeticas.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pdi_code.dir/src/operacoesAritmeticas.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lucas\Trabalho-m1-PDI\src\operacoesAritmeticas.cpp > CMakeFiles\pdi_code.dir\src\operacoesAritmeticas.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\src\operacoesAritmeticas.cpp > CMakeFiles\pdi_code.dir\src\operacoesAritmeticas.cpp.i
 
 CMakeFiles/pdi_code.dir/src/operacoesAritmeticas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pdi_code.dir/src/operacoesAritmeticas.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lucas\Trabalho-m1-PDI\src\operacoesAritmeticas.cpp -o CMakeFiles\pdi_code.dir\src\operacoesAritmeticas.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\src\operacoesAritmeticas.cpp -o CMakeFiles\pdi_code.dir\src\operacoesAritmeticas.cpp.s
 
 # Object files for target pdi_code
 pdi_code_OBJECTS = \
@@ -309,7 +309,7 @@ pdi_code.exe: C:/msys64/ucrt64/lib/libopencv_core.dll.a
 pdi_code.exe: CMakeFiles/pdi_code.dir/linkLibs.rsp
 pdi_code.exe: CMakeFiles/pdi_code.dir/objects1.rsp
 pdi_code.exe: CMakeFiles/pdi_code.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Lucas\Trabalho-m1-PDI\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable pdi_code.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable pdi_code.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\pdi_code.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -321,6 +321,6 @@ CMakeFiles/pdi_code.dir/clean:
 .PHONY : CMakeFiles/pdi_code.dir/clean
 
 CMakeFiles/pdi_code.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Lucas\Trabalho-m1-PDI C:\Users\Lucas\Trabalho-m1-PDI C:\Users\Lucas\Trabalho-m1-PDI\build C:\Users\Lucas\Trabalho-m1-PDI\build C:\Users\Lucas\Trabalho-m1-PDI\build\CMakeFiles\pdi_code.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\build C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\build C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\build\CMakeFiles\pdi_code.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/pdi_code.dir/depend
 

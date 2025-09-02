@@ -1,5 +1,5 @@
 CMakeFiles/pdi_code.dir/app/run.cpp.obj: \
- C:\Users\Lucas\Trabalho-m1-PDI\app\run.cpp \
+ C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\app\run.cpp \
  C:/msys64/ucrt64/include/c++/15.2.0/iostream \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -363,12 +363,12 @@ CMakeFiles/pdi_code.dir/app/run.cpp.obj: \
  C:/msys64/ucrt64/include/opencv4/opencv2/video.hpp \
  C:/msys64/ucrt64/include/opencv4/opencv2/video/tracking.hpp \
  C:/msys64/ucrt64/include/opencv4/opencv2/video/background_segm.hpp \
- C:/Users/Lucas/Trabalho-m1-PDI/include/grayscale.hpp \
- C:/Users/Lucas/Trabalho-m1-PDI/include/imageinfo.hpp \
- C:/Users/Lucas/Trabalho-m1-PDI/include/mediaAritmetica.hpp \
- C:/Users/Lucas/Trabalho-m1-PDI/include/mediaPonderada.hpp \
- C:/Users/Lucas/Trabalho-m1-PDI/include/limiarizacao.hpp \
- C:/Users/Lucas/Trabalho-m1-PDI/include/InverterImagem.hpp \
- C:/Users/Lucas/Trabalho-m1-PDI/include/histograma.hpp \
- C:/Users/Lucas/Trabalho-m1-PDI/include/isolarCanais.hpp \
- C:/Users/Lucas/Trabalho-m1-PDI/include/operacoesAritmeticas.hpp
+ C:/Vinicius/UNIVALI/ProcImagens/trabalho/Trabalho-m1-PDI/include/grayscale.hpp \
+ C:/Vinicius/UNIVALI/ProcImagens/trabalho/Trabalho-m1-PDI/include/imageinfo.hpp \
+ C:/Vinicius/UNIVALI/ProcImagens/trabalho/Trabalho-m1-PDI/include/mediaAritmetica.hpp \
+ C:/Vinicius/UNIVALI/ProcImagens/trabalho/Trabalho-m1-PDI/include/mediaPonderada.hpp \
+ C:/Vinicius/UNIVALI/ProcImagens/trabalho/Trabalho-m1-PDI/include/limiarizacao.hpp \
+ C:/Vinicius/UNIVALI/ProcImagens/trabalho/Trabalho-m1-PDI/include/InverterImagem.hpp \
+ C:/Vinicius/UNIVALI/ProcImagens/trabalho/Trabalho-m1-PDI/include/histograma.hpp \
+ C:/Vinicius/UNIVALI/ProcImagens/trabalho/Trabalho-m1-PDI/include/isolarCanais.hpp \
+ C:/Vinicius/UNIVALI/ProcImagens/trabalho/Trabalho-m1-PDI/include/operacoesAritmeticas.hpp

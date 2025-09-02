@@ -1,19 +1,38 @@
+/**
+ * @class ImageInfo
+ * @brief Classe utilitária para exibição e conversão de informações sobre imagens do OpenCV.
+ *
+ * Fornece métodos para mostrar informações detalhadas de uma imagem (cv::Mat) e converter
+ * o tipo da matriz para uma string legível.
+ */
 #include "ImageInfo.hpp"
 
+/**
+ * @brief Construtor padrão da classe ImageInfo.
+ *
+ * Inicializa uma instância da classe ImageInfo.
+ */
 ImageInfo::ImageInfo()
 {}
+
+/**
+ * @brief Destrutor da classe ImageInfo.
+ *
+ * Libera recursos associados à instância de ImageInfo.
+ */
 ImageInfo::~ImageInfo()
 {}
 
-
 /**
  * @brief Converte o identificador de tipo de um cv::Mat para uma string legível.
- * * A função recebe o inteiro retornado por `cv::Mat::type()` e extrai a informação
+ *
+ * A função recebe o inteiro retornado por `cv::Mat::type()` e extrai a informação
  * de profundidade (depth), como CV_8U, CV_32F, etc., retornando-a como uma 
  * std::string descritiva.
- * * @param tipo O inteiro que representa o tipo da matriz, obtido de `imagem.type()`.
+ *
+ * @param tipo O inteiro que representa o tipo da matriz, obtido de `imagem.type()`.
  * @return std::string Uma string contendo a representação legível da profundidade da matriz.
- * Retorna "Tipo desconhecido" se a profundidade não for reconhecida.
+ *         Retorna "Tipo desconhecido" se a profundidade não for reconhecida.
  */
 std::string ImageInfo::tipo_to_string(int tipo) 
 {
@@ -33,7 +52,10 @@ std::string ImageInfo::tipo_to_string(int tipo)
 /**
  * @brief Mostra informações detalhadas de uma imagem Mat do OpenCV.
  *
- * @param imagem A imagem (cv::Mat) cujas informações serão exibidas.
+ * Exibe no console as principais características da imagem, como dimensões,
+ * quantidade de canais, tamanho total de elementos, tamanho em bytes e profundidade.
+ *
+ * @param image A imagem (cv::Mat) cujas informações serão exibidas.
  * @param nomeImagem Uma string opcional com o nome da imagem para exibição.
  */
 void ImageInfo::image_show(const cv::Mat& image, const std::string& nomeImagem)

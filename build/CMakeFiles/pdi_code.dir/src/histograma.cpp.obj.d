@@ -1,6 +1,6 @@
 CMakeFiles/pdi_code.dir/src/histograma.cpp.obj: \
- C:\Users\Lucas\Trabalho-m1-PDI\src\histograma.cpp \
- C:/Users/Lucas/Trabalho-m1-PDI/include/histograma.hpp \
+ C:\Vinicius\UNIVALI\ProcImagens\trabalho\Trabalho-m1-PDI\src\histograma.cpp \
+ C:/Vinicius/UNIVALI/ProcImagens/trabalho/Trabalho-m1-PDI/include/histograma.hpp \
  C:/msys64/ucrt64/include/c++/15.2.0/string \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
