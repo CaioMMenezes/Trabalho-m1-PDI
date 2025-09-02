@@ -1,0 +1,24 @@
+# ninja log v7
+63	2772	7785372288235067	CMakeFiles/pdi_code.dir/src/grayscale.cpp.obj	f0f3860978008991
+70	2783	7785372288315141	CMakeFiles/pdi_code.dir/src/imageinfo.cpp.obj	a1266e8cc51daac5
+77	2785	7785372288385197	CMakeFiles/pdi_code.dir/src/limiarizacao.cpp.obj	f52b0b1242a33107
+85	2796	7785372288455258	CMakeFiles/pdi_code.dir/src/mediaAritmetica.cpp.obj	59deef127a7c29b1
+73	2802	7785372288345160	CMakeFiles/pdi_code.dir/src/isolarCanais.cpp.obj	cc11eb6ee7af1027
+60	2806	7785372288205051	CMakeFiles/pdi_code.dir/src/InverterImagem.cpp.obj	a0f5be2fa0546d92
+90	2812	7785372288515313	CMakeFiles/pdi_code.dir/src/mediaPonderada.cpp.obj	767b750cbb2b65ef
+55	2814	7785372288164996	CMakeFiles/pdi_code.dir/app/run.cpp.obj	4d3b67424775d280
+96	2830	7785372288605397	CMakeFiles/pdi_code.dir/src/operacoesAritmeticas.cpp.obj	fa85d8f629d084b3
+66	2899	7785372288275097	CMakeFiles/pdi_code.dir/src/histograma.cpp.obj	a294017f9e2fdd30
+2899	3335	7785372316600863	pdi_code.exe	e42e2c6cdbae9ce7
+28	1732	7785376532126968	CMakeFiles/pdi_code.dir/app/run.cpp.obj	4d3b67424775d280
+1732	1935	7785376549162454	pdi_code.exe	e42e2c6cdbae9ce7
+14	1753	7785395773616620	CMakeFiles/pdi_code.dir/app/run.cpp.obj	4d3b67424775d280
+1753	1956	7785395791012445	pdi_code.exe	e42e2c6cdbae9ce7
+14	1751	7785398438066619	CMakeFiles/pdi_code.dir/app/run.cpp.obj	4d3b67424775d280
+1752	1970	7785398455452432	pdi_code.exe	e42e2c6cdbae9ce7
+30	1757	7785402595545957	CMakeFiles/pdi_code.dir/app/run.cpp.obj	4d3b67424775d280
+1757	1959	7785402612811665	pdi_code.exe	e42e2c6cdbae9ce7
+28	1816	7785405086546091	CMakeFiles/pdi_code.dir/app/run.cpp.obj	4d3b67424775d280
+1817	2020	7785405104432362	pdi_code.exe	e42e2c6cdbae9ce7
+29	1750	7785405706997442	CMakeFiles/pdi_code.dir/app/run.cpp.obj	4d3b67424775d280
+1751	1946	7785405724213090	pdi_code.exe	e42e2c6cdbae9ce7
